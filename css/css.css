@@ -1,0 +1,27 @@
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ float:left; /*pour IE*/
+ border-left:0px solid black;
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:auto;
+padding-left:10px;
+padding-right:10px;
+font-weight:bold;
+ line-height:40px; /*hauteur de l'image de fond*/
+ background:transparent;
+ color:#DCDCDC;
+ text-decoration:none;
+ text-align:center;
+ }
+ul li a:hover {
+ background:#0720a1;
+ color:white;
+text-decoration:none;
+ }  
